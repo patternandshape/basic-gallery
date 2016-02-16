@@ -53,13 +53,6 @@ img:last-child {
   .container {
     margin-left: .8em;
   }
-  /*.gallery {
-    position: relative;
-    left: 50%;
-    transform: translate(-50%, 0);
-    border: 1px solid red;
-
-  }*/
 
   img {
     width: 42vw;
@@ -70,19 +63,19 @@ img:last-child {
     margin-right: .2em;
     margin-top: 1.1em;
   }
-
-  /*.gallery:nth-child(odd) {
-    margin-right:  2em;
-  }
-
-  .gallery:nth-child(even) {
-
-  }*/
-
 }
 
 @media screen and (min-width: 1280px) {
+  .container {
+    width: 93%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
+  img {
+    width: 27vw;
+    height: 30vh;
+  }
 }
 
 
